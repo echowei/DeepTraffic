@@ -1,4 +1,4 @@
-# CNN model for network traffic classification
+# Deep Learning model for network traffic classification
 
 For more information please read our papers.<br>
 
