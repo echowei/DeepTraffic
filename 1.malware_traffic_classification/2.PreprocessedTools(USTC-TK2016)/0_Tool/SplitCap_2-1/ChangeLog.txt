@@ -1,0 +1,14 @@
+﻿2013-11-09	SplitCap 2.1
+
+ *	Support for reading PCAP data from stdin with "-r -", for example in order to run:
+	tcpdump -i eth0 -w - | mono SplitCap.exe -r -
+
+2013-06-25	SplitCap 2.0
+
+ *	Changed from "\\" to System.IO.Path.DirectorySeparatorChar in order to run better
+	on Linux and other non-Windows platforms.
+	Hint: use Mono framework to run SplitCap in Linux.
+	Installation in Ubuntu with: apt-get install libmono2.0-cil
+
+ *	Added "-s seconds <s>" and "-s packets <c>" to split pcap files based on
+	time or packet count (much like editcap).

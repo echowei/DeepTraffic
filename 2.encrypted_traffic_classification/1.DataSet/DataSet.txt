@@ -1,0 +1,47 @@
+# All files can be found in VPN-nonVPN dataset (http://www.unb.ca/cic/datasets/vpn.html)
+
+./non-vpn:
+Chat  Email  File Transfer  P2P  Streaming  VoIP
+
+./non-vpn/Chat:
+AIMchat1.pcapng  aim_chat_3a.pcap  facebookchat1.pcapng  facebookchat3.pcapng   facebook_chat_4b.pcap  hangouts_chat_4a.pcap  ICQchat2.pcapng   icq_chat_3b.pcap   skype_chat1b.pcap
+AIMchat2.pcapng  aim_chat_3b.pcap  facebookchat2.pcapng  facebook_chat_4a.pcap  hangout_chat_4b.pcap   ICQchat1.pcapng        icq_chat_3a.pcap  skype_chat1a.pcap
+
+./non-vpn/Email:
+email1a.pcap  email1b.pcap  email2a.pcap  email2b.pcap  gmailchat1.pcapng  gmailchat2.pcapng  gmailchat3.pcapng
+
+./non-vpn/File Transfer:
+skype_file1.pcap  skype_file2.pcap  skype_file3.pcap  skype_file4.pcap  skype_file5.pcap  skype_file6.pcap  skype_file7.pcap  skype_file8.pcap
+
+./non-vpn/P2P:
+Torrent01.pcap
+
+./non-vpn/Streaming:
+netflix1.pcap  netflix3.pcap  spotify1.pcap  spotify3.pcap  vimeo1.pcap  vimeo3.pcap  youtube1.pcap  youtube3.pcap  youtube5.pcap  youtubeHTML5_1.pcap
+netflix2.pcap  netflix4.pcap  spotify2.pcap  spotify4.pcap  vimeo2.pcap  vimeo4.pcap  youtube2.pcap  youtube4.pcap  youtube6.pcap
+
+./non-vpn/VoIP:
+hangouts_audio1a.pcap  hangouts_audio1b.pcap  hangouts_audio2a.pcap  hangouts_audio2b.pcap  hangouts_audio3.pcap  hangouts_audio4.pcap
+
+./vpn:
+Chat  Email  File Transfer  P2P  Streaming  VoIP
+
+./vpn/Chat:
+vpn_aim_chat1a.pcap  vpn_chat.pcap             vpn_facebook_chat1b.pcap  vpn_hangouts_chat1b.pcap  vpn_icq_chat1b.pcap    vpn_skype_chat1b.pcap
+vpn_aim_chat1b.pcap  vpn_facebook_chat1a.pcap  vpn_hangouts_chat1a.pcap  vpn_icq_chat1a.pcap       vpn_skype_chat1a.pcap
+
+./vpn/Email:
+vpn_email2a.pcap  vpn_email2b.pcap
+
+./vpn/File Transfer:
+vpn_ftps_A.pcap  vpn_ftps_B.pcap  vpn_sftp_A.pcap  vpn_sftp_B.pcap  vpn_skype_files1a.pcap  vpn_skype_files1b.pcap
+
+./vpn/P2P:
+vpn_bittorrent.pcap
+
+./vpn/Streaming:
+vpn_netflix_A.pcap  vpn_spotify_A.pcap  vpn_vimeo_A.pcap  vpn_vimeo_B.pcap  vpn_youtube_A.pcap
+
+./vpn/VoIP:
+vpn_facebook_audio2.pcap  vpn_hangouts_audio1.pcap  vpn_hangouts_audio2.pcap  vpn_skype_audio1.pcap  vpn_skype_audio2.pcap  vpn_voipbuster1a.pcap  vpn_voipbuster1b.pcap
+

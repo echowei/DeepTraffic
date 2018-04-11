@@ -1,0 +1,19 @@
+Copyright 2008-2011, Erik Hjelmvik <erik.hjelmvik[at]gmail.com>
+SplitCap is available from http://www.netresec.com/?page=SplitCap
+
+SOFTWARE LICENSE
+
+SplitCap is licensed under the GNU General Public License Version 3.
+http://www.gnu.org/licenses/gpl.html
+
+SplitCap uses the assemblies PacketParser and PcapFileHandler, which both stem
+from the NetworkMiner open source network forensics application available at:
+http://networkminer.sourceforge.net/
+
+The SplitCap open source project space is available on SourceForge:
+http://sourceforge.net/projects/splitcap/
+
+
+SplitCap was initially created as part of the Statistical Protocol IDentification
+research project carried out by Erik Hjelmvik with fundings from .SE.
+More info on .SE is available at: http://www.iis.se/en/
