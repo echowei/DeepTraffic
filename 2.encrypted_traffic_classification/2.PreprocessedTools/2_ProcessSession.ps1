@@ -28,6 +28,7 @@ foreach($d in $dirs)
         }
 
         $files = $files | resolve-path
+        # Ignore the .pcap file that has less than 10 packets
         $test  = $files | get-random -count ([int]($count/10))
         $train = $files | ?{$_ -notin $test}     
 
