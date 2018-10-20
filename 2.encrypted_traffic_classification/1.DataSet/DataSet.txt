@@ -1,4 +1,5 @@
 # All files can be found in VPN-nonVPN dataset (http://www.unb.ca/cic/datasets/vpn.html)
+# Notes：You should convert pcapng files to pcap files using editcap tool first
 
 ./non-vpn:
 Chat  Email  File Transfer  P2P  Streaming  VoIP
