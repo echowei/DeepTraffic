@@ -100,7 +100,12 @@ h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)
 w_fc2 = weight_variable([1024, CLASS_NUM])
 b_fc2 = bias_variable([CLASS_NUM])
 
-y_conv = tf.nn.softmax(tf.matmul(h_fc1_drop, w_fc2) + b_fc2)
+# From Site1997: This would cause nan or 0 gradient if "tf.matmul(h_fc1_drop, w_fc2) + b_fc2" is all zero or nan, 
+# so when the training iteration is big enough, all weights could suddenly became 0.
+# Use tf.nn.softmax_cross_entropy_with_logits instead. It handles the extreme case safely.
+# y_conv = tf.nn.softmax(tf.matmul(h_fc1_drop, w_fc2) + b_fc2)
+
+tf.nn.softmax_cross_entropy_with_logits(tf.matmul(h_fc1_drop, w_fc2) + b_fc2)
 
 # define var&op of training&testing
 actual_label = tf.argmax(y_, 1)
