@@ -2,6 +2,8 @@
 
 For more information please read our papers.<br>
 
+> #### [***:mortar_board:Wei Wang's Google Scholar Homepage***](https://scholar.google.com/citations?user=1nVO7oIAAAAJ)
+
 > ###### [Wei Wang, Xuewen Zeng, Xiaozhou Ye, Yiqiang Sheng and Ming Zhu,"Malware Traffic Classification Using Convolutional Neural Networks for Representation Learning," in the 31st International Conference on Information Networking (ICOIN 2017), pp. 712-717, 2017.](https://ieeexplore.ieee.org/document/7899588)
 
 > ###### [Wei Wang, Jinlin Wang, Xuewen Zeng, Zhongzhen Yang and Ming Zhu, "End-to-end Encrypted Traffic Classification with One-dimensional Convolution Neural Networks," in the 15th IEEE International Conference on Intelligence and Security Informatics (IEEE ISI 2017), pp. 43-48, 2017.](https://ieeexplore.ieee.org/document/8004872/) 
